@@ -19,7 +19,7 @@ To install this project, you must need installed in your computer
 - npm
 - git
 
-First clone the project in your computer
+First, clone the project in your computer
 ```
 $ git clone https://github.com/LuisMPC93/ShopiGalaxy.git
 ```

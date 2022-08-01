@@ -1,0 +1,185 @@
+.card {
+    width: 216px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card-header{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+.card-header img {
+    width: 100%;
+    height: 100%;
+}
+.card-header.off:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-top: 60px solid #F8475F;
+    border-left: 60px solid transparent;
+    position: absolute;
+    right: 0%;
+    top: 0px;
+}
+
+.card-header.off:after {
+    font-family: Nunito, Black;
+    content: 'OFF';
+    position: absolute;
+    z-index: 100;
+    right: 2%;
+    opacity: 1;
+    top: 6%;
+    color: #fff;
+    font-size: 16px;
+}
+
+.card-body {
+    width: 100%;
+    height: 106px;
+    text-align: center;
+}
+
+.card.selected .card-body,
+.card.selected .card-footer{
+    background: #E6E8EA;
+}
+
+.card-title{
+    font-family: Nunito, SemiBold;
+    font-size: 12px;
+    color: #7A7A7A;
+}
+
+.card-subtitle{
+    font-family: Nunito, Regular;
+    font-size: 12px;
+    color: #7A7A7A;
+    margin: 3px;
+}
+
+.card-price {
+    font-family: Nunito, Bold;
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
+    margin: 3px;
+}
+
+.card-installment {
+    font-family: Nunito, Regular;
+    font-size: 11px;
+    color: #7A7A7A;
+}
+
+.card-footer {
+    width: calc(100% - 12px);
+    height: 32px;
+    padding: 6px 6px 12px 6px;
+    text-align: center;
+}
+
+.strokeBorder-black {
+    font-size: 10px;
+    margin-right: 6px;
+}
+.strokeBorder-black path{
+    color: #fff;
+    stroke: #F8475F;
+    stroke-width: 56px;
+}
+
+.strokeBorder-black.checked path {
+    color: #F8475F;
+}
+
+.react-multiple-carousel__arrow--right{
+    right: 0!important;
+}
+
+.react-multiple-carousel__arrow--left {
+    left: 0!important;
+}
+
+.react-multiple-carousel__arrow{
+    background: unset!important;
+    border-radius: 6px!important;
+}
+
+.react-multiple-carousel__arrow:hover{
+    background: rgba(0,0,0,0.8)!important;
+}
+
+.react-multiple-carousel__arrow:hover:before{
+    color: #fff!important;
+}
+
+.react-multiple-carousel__arrow::before{
+    font-size: 30px!important;
+    color: #000!important;
+}
+
+.react-multi-carousel-item{
+    height: 100%;
+}
+
+.react-multi-carousel-dot > button{
+    border: none!important;
+    background: #BDBDBD;
+    width: 8px!important;
+    height: 8px!important;
+    margin: 0 8px!important;
+}
+
+.react-multi-carousel-dot.react-multi-carousel-dot--active > button{
+    background: #F8475F!important;
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 163px;
+    }
+
+    .card-header{
+        height: 151px;
+    }
+
+    .card-body{
+        width: 100%;
+        padding: 8px;
+    }
+
+    .card-footer {
+        width: 100%;
+        height: 32px;
+        padding: 3px 8px 8px 8px;
+        text-align: center;
+    }
+
+    .strokeBorder-black {
+        font-size: 7px;
+        margin-right: 6px;
+    }
+
+    .card-title{
+        font-size: 10px;
+    }
+
+    .card-subtitle{
+        font-size: 11px;
+        margin: 1px;
+    }
+
+    .card-price{
+        font-size: 16px;
+    }
+
+    .card-installment {
+        font-size: 11px;
+    }
+}

@@ -1,0 +1,36 @@
+.Header-desktop{
+    display: flex;
+    flex-flow: row wrap;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Header-mobil{
+    display: none;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.countCart {
+    border-radius: 360px;
+    background: #f8475f;
+    padding: 3px 6px;
+    color: #fff;
+    font-size: 10px;
+    margin: 6px;
+}
+
+.menu {
+    font-size: 30px;
+}
+
+@media (max-width: 600px) {
+    .Header-desktop{
+        display: none;
+    }
+
+    .Header-mobil{
+        display: flex;
+    }
+}

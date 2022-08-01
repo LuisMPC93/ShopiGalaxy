@@ -1,0 +1,45 @@
+.news-letter{
+    background: #F2F2F2;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.news-letter-title{
+    font: normal normal 900 22px/24px Lato;
+    font-weight: bold;
+    margin: 0;
+    padding: 16px 0;
+}
+
+.input {
+    padding: 14px 14px;
+    width: 280px;
+    margin-right: 8px;
+    border-radius: 6px;
+    border: none;
+    text-align: left;
+    font: normal normal bold 12px/14px Lato;
+}
+
+.btn-submit{
+    width: 140px;
+    height: 48px;
+    text-align: center;
+    font: normal normal bold 14px/50px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    border: none;
+    background: #000000 0% 0% no-repeat padding-box;
+}
+
+@media (max-width: 600px) {
+    .btn-submit{
+        width:100%;
+    }
+
+    .input{
+        width: calc(100% - 24px);
+        margin-bottom: 18px;
+    }
+}

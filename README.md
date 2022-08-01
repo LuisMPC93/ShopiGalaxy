@@ -14,7 +14,16 @@ ShopiGalaxy is a test page
 - react-responsive-carousel
 
 ## Install
+To install this project, you must need installed in your computer
+- Node.js
+- npm
+- git
 
+First clone the project in your computer
+```
+$ git clone https://github.com/LuisMPC93/ShopiGalaxy.git
+```
+After clone, execute install
 ```
 $ npm install 
 ```

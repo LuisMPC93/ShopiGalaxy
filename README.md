@@ -7,6 +7,7 @@ ShopiGalaxy is a test page
 - Get list of articles from an API and show in Carousel
 
 ### used libraries 📚
+- react-toastify
 - react-fontawesome
 - axios
 - react-multi-carousel
